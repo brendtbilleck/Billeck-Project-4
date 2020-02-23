@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78C7A52224031A8A00E3DBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C7A52124031A8A00E3DBBB /* AppDelegate.swift */; };
+		78C7A52424031A8A00E3DBBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C7A52324031A8A00E3DBBB /* SceneDelegate.swift */; };
+		78C7A52624031A8A00E3DBBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C7A52524031A8A00E3DBBB /* ViewController.swift */; };
+		78C7A52924031A8A00E3DBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C7A52724031A8A00E3DBBB /* Main.storyboard */; };
+		78C7A52B24031A8C00E3DBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C7A52A24031A8C00E3DBBB /* Assets.xcassets */; };
+		78C7A52E24031A8C00E3DBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C7A52C24031A8C00E3DBBB /* LaunchScreen.storyboard */; };
+		78C7A53924031A8D00E3DBBB /* Billeck_Project_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C7A53824031A8D00E3DBBB /* Billeck_Project_4Tests.swift */; };
+		78C7A54424031A8D00E3DBBB /* Billeck_Project_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C7A54324031A8D00E3DBBB /* Billeck_Project_4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C7A53524031A8C00E3DBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C7A51624031A8A00E3DBBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C7A51D24031A8A00E3DBBB;
+			remoteInfo = "Billeck Project 4";
+		};
+		78C7A54024031A8D00E3DBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C7A51624031A8A00E3DBBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C7A51D24031A8A00E3DBBB;
+			remoteInfo = "Billeck Project 4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78C7A51E24031A8A00E3DBBB /* Billeck Project 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Billeck Project 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C7A52124031A8A00E3DBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78C7A52324031A8A00E3DBBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78C7A52524031A8A00E3DBBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78C7A52824031A8A00E3DBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78C7A52A24031A8C00E3DBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78C7A52D24031A8C00E3DBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78C7A52F24031A8C00E3DBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C7A53424031A8C00E3DBBB /* Billeck Project 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billeck Project 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C7A53824031A8D00E3DBBB /* Billeck_Project_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billeck_Project_4Tests.swift; sourceTree = "<group>"; };
+		78C7A53A24031A8D00E3DBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C7A53F24031A8D00E3DBBB /* Billeck Project 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billeck Project 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C7A54324031A8D00E3DBBB /* Billeck_Project_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billeck_Project_4UITests.swift; sourceTree = "<group>"; };
+		78C7A54524031A8D00E3DBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C7A51B24031A8A00E3DBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C7A53124031A8C00E3DBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C7A53C24031A8D00E3DBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C7A51524031A8A00E3DBBB = {
+			isa = PBXGroup;
+			children = (
+				78C7A52024031A8A00E3DBBB /* Billeck Project 4 */,
+				78C7A53724031A8D00E3DBBB /* Billeck Project 4Tests */,
+				78C7A54224031A8D00E3DBBB /* Billeck Project 4UITests */,
+				78C7A51F24031A8A00E3DBBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78C7A51F24031A8A00E3DBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C7A51E24031A8A00E3DBBB /* Billeck Project 4.app */,
+				78C7A53424031A8C00E3DBBB /* Billeck Project 4Tests.xctest */,
+				78C7A53F24031A8D00E3DBBB /* Billeck Project 4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C7A52024031A8A00E3DBBB /* Billeck Project 4 */ = {
+			isa = PBXGroup;
+			children = (
+				78C7A52124031A8A00E3DBBB /* AppDelegate.swift */,
+				78C7A52324031A8A00E3DBBB /* SceneDelegate.swift */,
+				78C7A52524031A8A00E3DBBB /* ViewController.swift */,
+				78C7A52724031A8A00E3DBBB /* Main.storyboard */,
+				78C7A52A24031A8C00E3DBBB /* Assets.xcassets */,
+				78C7A52C24031A8C00E3DBBB /* LaunchScreen.storyboard */,
+				78C7A52F24031A8C00E3DBBB /* Info.plist */,
+			);
+			path = "Billeck Project 4";
+			sourceTree = "<group>";
+		};
+		78C7A53724031A8D00E3DBBB /* Billeck Project 4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				78C7A53824031A8D00E3DBBB /* Billeck_Project_4Tests.swift */,
+				78C7A53A24031A8D00E3DBBB /* Info.plist */,
+			);
+			path = "Billeck Project 4Tests";
+			sourceTree = "<group>";
+		};
+		78C7A54224031A8D00E3DBBB /* Billeck Project 4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				78C7A54324031A8D00E3DBBB /* Billeck_Project_4UITests.swift */,
+				78C7A54524031A8D00E3DBBB /* Info.plist */,
+			);
+			path = "Billeck Project 4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C7A51D24031A8A00E3DBBB /* Billeck Project 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C7A54824031A8D00E3DBBB /* Build configuration list for PBXNativeTarget "Billeck Project 4" */;
+			buildPhases = (
+				78C7A51A24031A8A00E3DBBB /* Sources */,
+				78C7A51B24031A8A00E3DBBB /* Frameworks */,
+				78C7A51C24031A8A00E3DBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Billeck Project 4";
+			productName = "Billeck Project 4";
+			productReference = 78C7A51E24031A8A00E3DBBB /* Billeck Project 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78C7A53324031A8C00E3DBBB /* Billeck Project 4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C7A54B24031A8D00E3DBBB /* Build configuration list for PBXNativeTarget "Billeck Project 4Tests" */;
+			buildPhases = (
+				78C7A53024031A8C00E3DBBB /* Sources */,
+				78C7A53124031A8C00E3DBBB /* Frameworks */,
+				78C7A53224031A8C00E3DBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C7A53624031A8C00E3DBBB /* PBXTargetDependency */,
+			);
+			name = "Billeck Project 4Tests";
+			productName = "Billeck Project 4Tests";
+			productReference = 78C7A53424031A8C00E3DBBB /* Billeck Project 4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78C7A53E24031A8D00E3DBBB /* Billeck Project 4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C7A54E24031A8D00E3DBBB /* Build configuration list for PBXNativeTarget "Billeck Project 4UITests" */;
+			buildPhases = (
+				78C7A53B24031A8D00E3DBBB /* Sources */,
+				78C7A53C24031A8D00E3DBBB /* Frameworks */,
+				78C7A53D24031A8D00E3DBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C7A54124031A8D00E3DBBB /* PBXTargetDependency */,
+			);
+			name = "Billeck Project 4UITests";
+			productName = "Billeck Project 4UITests";
+			productReference = 78C7A53F24031A8D00E3DBBB /* Billeck Project 4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C7A51624031A8A00E3DBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Brendt Billeck";
+				TargetAttributes = {
+					78C7A51D24031A8A00E3DBBB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					78C7A53324031A8C00E3DBBB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 78C7A51D24031A8A00E3DBBB;
+					};
+					78C7A53E24031A8D00E3DBBB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 78C7A51D24031A8A00E3DBBB;
+					};
+				};
+			};
+			buildConfigurationList = 78C7A51924031A8A00E3DBBB /* Build configuration list for PBXProject "Billeck Project 4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78C7A51524031A8A00E3DBBB;
+			productRefGroup = 78C7A51F24031A8A00E3DBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C7A51D24031A8A00E3DBBB /* Billeck Project 4 */,
+				78C7A53324031A8C00E3DBBB /* Billeck Project 4Tests */,
+				78C7A53E24031A8D00E3DBBB /* Billeck Project 4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C7A51C24031A8A00E3DBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C7A52E24031A8C00E3DBBB /* LaunchScreen.storyboard in Resources */,
+				78C7A52B24031A8C00E3DBBB /* Assets.xcassets in Resources */,
+				78C7A52924031A8A00E3DBBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C7A53224031A8C00E3DBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C7A53D24031A8D00E3DBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C7A51A24031A8A00E3DBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C7A52624031A8A00E3DBBB /* ViewController.swift in Sources */,
+				78C7A52224031A8A00E3DBBB /* AppDelegate.swift in Sources */,
+				78C7A52424031A8A00E3DBBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C7A53024031A8C00E3DBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C7A53924031A8D00E3DBBB /* Billeck_Project_4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C7A53B24031A8D00E3DBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C7A54424031A8D00E3DBBB /* Billeck_Project_4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C7A53624031A8C00E3DBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C7A51D24031A8A00E3DBBB /* Billeck Project 4 */;
+			targetProxy = 78C7A53524031A8C00E3DBBB /* PBXContainerItemProxy */;
+		};
+		78C7A54124031A8D00E3DBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C7A51D24031A8A00E3DBBB /* Billeck Project 4 */;
+			targetProxy = 78C7A54024031A8D00E3DBBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78C7A52724031A8A00E3DBBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C7A52824031A8A00E3DBBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78C7A52C24031A8C00E3DBBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C7A52D24031A8C00E3DBBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78C7A54624031A8D00E3DBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78C7A54724031A8D00E3DBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C7A54924031A8D00E3DBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Project 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Project-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C7A54A24031A8D00E3DBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Project 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Project-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78C7A54C24031A8D00E3DBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Project 4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Project-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billeck Project 4.app/Billeck Project 4";
+			};
+			name = Debug;
+		};
+		78C7A54D24031A8D00E3DBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Project 4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Project-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billeck Project 4.app/Billeck Project 4";
+			};
+			name = Release;
+		};
+		78C7A54F24031A8D00E3DBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Project 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Project-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billeck Project 4";
+			};
+			name = Debug;
+		};
+		78C7A55024031A8D00E3DBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L33ZSNCYT;
+				INFOPLIST_FILE = "Billeck Project 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brendtbilleck.com.Billeck-Project-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billeck Project 4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C7A51924031A8A00E3DBBB /* Build configuration list for PBXProject "Billeck Project 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C7A54624031A8D00E3DBBB /* Debug */,
+				78C7A54724031A8D00E3DBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C7A54824031A8D00E3DBBB /* Build configuration list for PBXNativeTarget "Billeck Project 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C7A54924031A8D00E3DBBB /* Debug */,
+				78C7A54A24031A8D00E3DBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C7A54B24031A8D00E3DBBB /* Build configuration list for PBXNativeTarget "Billeck Project 4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C7A54C24031A8D00E3DBBB /* Debug */,
+				78C7A54D24031A8D00E3DBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C7A54E24031A8D00E3DBBB /* Build configuration list for PBXNativeTarget "Billeck Project 4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C7A54F24031A8D00E3DBBB /* Debug */,
+				78C7A55024031A8D00E3DBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C7A51624031A8A00E3DBBB /* Project object */;
+}
